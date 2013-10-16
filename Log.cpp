@@ -5,7 +5,7 @@
 //
 
 //include if using precompiled headers
-#include "stdafx.h"
+//#include "stdafx.h"
 
 #include "Log.h"
 
