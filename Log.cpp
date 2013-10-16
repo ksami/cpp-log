@@ -24,7 +24,7 @@ std::string Log::getCurrentTime(void)
 	return (std::string)formattedTime;
 }
 
-void Log::logging(std::string message, LogLevel level)
+void logging(std::string message, LogLevel level)
 {
 	static std::string logFileName;
 	static std::ofstream logFile;

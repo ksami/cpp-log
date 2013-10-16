@@ -28,20 +28,21 @@
 
 #pragma once
 
-#undef log
-
-#ifdef NLOG
-#define log(string, LogLevel) ((void)0)
-#else
-#define log(string, LogLevel) Log::logging(string, LogLevel)
-
 #include <iostream>
+#include <string>
 #include <fstream>
 #include <ctime>
 
 //to switch off assertions
 //#define NDEBUG
 #include <assert.h>
+
+#undef logging
+
+#ifdef NLOG
+#define logging(string, LogLevel) ((void)0)
+#else
+#define logging(string, LogLevel) Log::logging(string, LogLevel)
 
 enum LogLevel {Debug, Info, Warning, Error};
 
