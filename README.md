@@ -20,8 +20,8 @@ Logging in C++
 //  
   
 //  
-// Creates a file called Log PROGRAM_NAME YYYYMMDDHHMMSS.txt  
+// Creates a file called Log PROGRAM_NAME YYYYMMDD HHMMSS.txt  
 // Write logs using the macro function logging(string message, LogLevel level)  
-// Logging Severity Levels: DEBUG, INFO, WARNING, ERROR  
+// Logging Severity Levels: DEBUG, EVENT, INFO, WARNING, ERROR  
 // Use #define NLOG before #include "Log.h" to switch off logging  
 //  
