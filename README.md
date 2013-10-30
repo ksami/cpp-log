@@ -10,7 +10,7 @@ Logging in C++
   
 //  
 // To use, add into your source file:	#include "Log.h"  
-// change line 46 below:				#define PROGRAM_NAME "yourProgramName"  
+// change line 49 below:				#define PROGRAM_NAME "yourProgramName"  
 // call this function to log:			logging(std::string message, LogLevel level);  
 //  
 // example:  
