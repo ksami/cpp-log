@@ -1,7 +1,7 @@
 // Log.cpp
 
 //
-// Written by Kenneth Ang
+// Written by Ksami
 //
 
 //include if using precompiled headers
